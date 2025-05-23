@@ -1,0 +1,6 @@
+``bash
+mkdir ea-converter-backend
+cd ea-converter-backend
+npm init -y
+npm install express mongoose bcryptjs jsonwebtoken dotenv cors
+```
