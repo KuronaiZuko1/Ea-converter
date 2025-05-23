@@ -1,4 +1,3 @@
-```js
 const License = require('../models/License');
 
 exports.createLicense = async (req, res) => {
@@ -15,4 +14,3 @@ exports.getLicenses = async (req, res) => {
   const licenses = await License.find({ userId: req.user.id });
   res.json(licenses);
 };
-```

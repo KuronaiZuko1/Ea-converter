@@ -1,4 +1,3 @@
-```js
 const mongoose = require('mongoose');
 const UserSchema = new mongoose.Schema({
   mentorId: String,
@@ -6,4 +5,3 @@ const UserSchema = new mongoose.Schema({
   password: String,
 });
 module.exports = mongoose.model('User', UserSchema);
-```

@@ -1,4 +1,3 @@
-```js
 const mongoose = require('mongoose');
 const LicenseSchema = new mongoose.Schema({
   userId: mongoose.Schema.Types.ObjectId,
@@ -7,4 +6,3 @@ const LicenseSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now },
 });
 module.exports = mongoose.model('License', LicenseSchema);
-```
